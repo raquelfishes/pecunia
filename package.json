@@ -1,0 +1,44 @@
+{
+  "name": "pecunia",
+  "version": "1.0.0",
+  "description": "Enhanced GOOGLEFINANCE wrapper with caching support for Google Sheets",
+  "main": "src/Code.js",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage",
+    "lint": "eslint src tests",
+    "lint:fix": "eslint src tests --fix",
+    "push": "clasp push",
+    "pull": "clasp pull",
+    "deploy": "clasp deploy",
+    "open": "clasp open"
+  },
+  "keywords": [
+    "google-sheets",
+    "apps-script",
+    "finance",
+    "stock-market",
+    "googlefinance",
+    "cache"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@google/clasp": "^2.4.2",
+    "@types/google-apps-script": "^1.0.83",
+    "eslint": "^8.57.0",
+    "jest": "^29.7.0"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "coverageDirectory": "coverage",
+    "collectCoverageFrom": [
+      "src/**/*.js",
+      "!src/**/*.test.js"
+    ],
+    "testMatch": [
+      "**/tests/**/*.test.js"
+    ]
+  }
+}

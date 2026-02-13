@@ -1,0 +1,26 @@
+# Node modules
+node_modules/
+
+# Test coverage
+coverage/
+
+# clasp credentials
+.clasprc.json
+
+# Environment variables
+.env
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+
+# clasp local files
+.clasp.json

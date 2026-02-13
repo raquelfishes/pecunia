@@ -1,7 +1,7 @@
 # 💰 Pecunia
 
-[![Test and Lint](https://github.com/yourusername/pecunia/workflows/Test%20and%20Lint/badge.svg)](https://github.com/yourusername/pecunia/actions)
-[![codecov](https://codecov.io/gh/yourusername/pecunia/branch/main/graph/badge.svg)](https://codecov.io/gh/yourusername/pecunia)
+[![Test and Lint](https://github.com/raquelfishes/pecunia/workflows/Test%20and%20Lint/badge.svg)](https://github.com/raquelfishes/pecunia/actions)
+[![codecov](https://codecov.io/gh/raquelfishes/pecunia/branch/main/graph/badge.svg)](https://codecov.io/gh/raquelfishes/pecunia)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![code style: eslint](https://img.shields.io/badge/code%20style-eslint-4B32C3.svg)](https://eslint.org/)
 
@@ -32,7 +32,7 @@ npm install -g @google/clasp
 
 2. Clone this repository:
 ```bash
-git clone https://github.com/yourusername/pecunia.git
+git clone https://github.com/raquelfishes/pecunia.git
 cd pecunia
 ```
 
@@ -347,7 +347,7 @@ PECUNIA(symbol, attributes, googleFinanceValues, date, cmdOption)
 
 After you push your repository to GitHub, update the badges at the top of this README:
 
-1. **Replace `yourusername/pecunia`** with your actual GitHub username and repository name in all badge URLs
+1. **Replace `raquelfishes/pecunia`** with your actual GitHub username and repository name in all badge URLs
 
 2. **GitHub Actions Badge** (Test and Lint):
    - Will work automatically once you push to GitHub
@@ -404,7 +404,7 @@ MIT License - see [LICENSE](LICENSE) file for details
 
 ## 🐛 Issues
 
-Found a bug? Have a feature request? Please [open an issue](https://github.com/yourusername/pecunia/issues) on GitHub.
+Found a bug? Have a feature request? Please [open an issue](https://github.com/raquelfishes/pecunia/issues) on GitHub.
 
 ## 📧 Contact
 
